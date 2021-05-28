@@ -1,0 +1,89 @@
+body {
+    padding: 50px;
+}
+
+/*main-title*/
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/*second-title*/
+.second-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.second-title.-mgBt {
+    margin-bottom: 10px;
+}
+
+.second-title.-bgBlack {
+    background-color: #222;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+/*main-description*/
+.main-description {
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
+.main-description.-lighter {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/*info-frame*/
+.info-frame {
+    margin-bottom: 50px;
+}
+
+.info-frame .infoArea {
+    border: 8px solid #222;
+    padding: 30px 40px;
+}
+
+.info-frame .infoArea.-fxSpBt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-frame .infoArea .profileImg {
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+/*main-table*/
+.main-table {
+    width: 100%;
+}
+
+.main-table.-wtBrd,
+.main-table.-wtBrd .tableHeader,
+.main-table.-wtBrd .tableDescription {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.main-table.-mgBt {
+    margin-bottom: 40px;
+}
+
+.main-table .tableHeader,
+.main-table .tableDescription {
+    padding: 5px 0px;
+    text-align: left;
+}
+
+.main-table .tableHeader {
+    width: 200px;
+}
