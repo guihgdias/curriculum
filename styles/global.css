@@ -1,5 +1,5 @@
 body {
-    padding: 50px;
+    padding: 20px;
 }
 
 /*main-title*/
@@ -61,7 +61,7 @@ body {
 }
 
 /*main-table*/
-.main-table {
+.info-frame .main-table:not(.info-frame.my-info .main-table) {
     width: 100%;
 }
 
