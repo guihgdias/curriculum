@@ -57,7 +57,6 @@ body {
 
 .info-frame .infoArea .profileImg {
     height: 300px;
-    border: 2px solid #000;
     border-radius: 10px;
 }
 
@@ -85,5 +84,5 @@ body {
 }
 
 .main-table .tableHeader {
-    width: 200px;
+    min-width: 200px;
 }
