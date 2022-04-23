@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+  .main-table .tableHeader {
+    max-width: 200px;
+  }
+
+  .info-frame:first-of-type .infoArea .main-table .tableRow {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  :root {
+    font-size: 15px;
+  }
+
+  .info-frame .infoArea.-fxSpBt {
+    flex-direction: column-reverse;
+  }
+
+  .info-frame .infoArea .profileImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 570px) {
+  .main-table .tableHeader {
+    min-width: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-title {
+    font-size: 2rem;
+  }
+}
